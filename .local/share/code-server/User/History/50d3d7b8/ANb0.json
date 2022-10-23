@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "open-in-browser.default": "chrome",
+    "liveServer.settings.port": 8080,
+    "remote.portsAttributes": {
+    
+        "443": {
+            "protocol": "https"
+        },
+        "8443": {
+            "protocol": "https"
+        }
+    }
+}

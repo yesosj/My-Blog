@@ -1,0 +1,50 @@
+[2022-09-28 09:46:10.483] [exthost] [info] Extension host with pid 13379 started
+[2022-09-28 09:46:10.505] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Lock acquired.
+[2022-09-28 09:46:10.576] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-28 09:46:10.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-28 09:46:10.589] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-28 09:46:10.693] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-28 09:46:10.769] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-28 09:46:10.787] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-28 09:46:10.792] [exthost] [info] Eager extensions activated
+[2022-09-28 09:46:49.172] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-09-28 09:46:49.275] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-28 09:47:36.327] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-09-28 09:47:39.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-09-28 10:44:04.188] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-09-28 10:44:04.197] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+Debug Failure. Did not expect JsxClosingFragment to have an Identifier in its trivia
+Error: Debug Failure. Did not expect JsxClosingFragment to have an Identifier in its trivia
+    at addSyntheticNodes (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:166044:30)
+    at createChildren (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:166033:9)
+    at NodeObject.getChildren (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:165975:56)
+    at _loop_1 (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:128959:36)
+    at getTokenAtPositionWorker (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:129016:27)
+    at Object.getTokenAtPosition (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:128950:16)
+    at getInfo (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:161093:28)
+    at Object.getRefactorActionsToConvertBetweenNamedAndDefaultExports [as getAvailableActions] (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:161063:28)
+    at /usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:152016:30
+    at getIterator (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:579:23)
+    at Object.flatMapIterator (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:562:27)
+    at Object.getApplicableRefactors (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:152012:36)
+    at Object.getApplicableRefactors (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:168058:32)
+    at IpcIOSession.Session.getApplicableRefactors (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:179752:53)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:178225:61)
+    at /usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at IpcIOSession.Session.executeWithRequestId (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at IpcIOSession.Session.executeCommand (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at IpcIOSession.Session.onMessage (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/usr/lib/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:511543)
+	at dispatchResponse (/usr/lib/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:505391)
+	at dispatchMessage (/usr/lib/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:504259)
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:503744)
+	at ChildProcess.emit (node:events:513:28)
+	at emit (node:internal/child_process:939:14)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-09-28 11:55:33.491] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-28 11:55:33.491] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-28 11:55:33.588] [exthost] [info] Extension host with pid 13379 exiting with code 0

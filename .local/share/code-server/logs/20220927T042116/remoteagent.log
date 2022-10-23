@@ -1,0 +1,12 @@
+[2022-09-27 04:21:16.297] [remoteagent] [info] 
+
+
+
+
+[2022-09-27 04:21:16.331] [remoteagent] [info] Extension host agent started.
+[2022-09-27 04:21:16.527] [remoteagent] [error] [172.17.0.1][1c13f072][ManagementConnection] Unknown reconnection token (never seen).
+[2022-09-27 04:21:16.600] [remoteagent] [error] [172.17.0.1][13a3eb7d][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-09-27 04:23:01.662] [remoteagent] [info] [172.17.0.1][6456a900][ManagementConnection] New connection established.
+[2022-09-27 04:23:02.947] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-09-27 04:23:02.952] [remoteagent] [info] [172.17.0.1][5a4f99ca][ExtensionHostConnection] New connection established.
+[2022-09-27 04:23:03.010] [remoteagent] [info] [172.17.0.1][5a4f99ca][ExtensionHostConnection] <73> Launched Extension Host Process.

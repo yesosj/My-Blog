@@ -1,0 +1,9 @@
+vscode-remote://221.163.124.75:5000/home/server.js {"mtime":1665724952100,"ctime":1665726265402,"size":0,"etag":"39gakg72l0","orphaned":false,"typeId":""}
+const express = require('express');
+const app = express();
+
+app.listen(5050, function () {
+  console.log('listening on 5050')
+  });
+
+

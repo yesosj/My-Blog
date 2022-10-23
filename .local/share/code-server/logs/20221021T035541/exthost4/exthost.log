@@ -1,0 +1,12 @@
+[2022-10-23 09:41:27.880] [exthost] [info] Extension host with pid 3931 started
+[2022-10-23 09:41:27.893] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/6a59749/vscode.lock': Lock acquired.
+[2022-10-23 09:41:27.988] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-23 09:41:27.996] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-10-23 09:41:28.001] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-23 09:41:28.105] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-23 09:41:28.242] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-10-23 09:41:28.300] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-23 09:41:28.323] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-23 09:41:28.331] [exthost] [info] Eager extensions activated
+[2022-10-23 09:42:12.126] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-10-23 09:42:12.242] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'

@@ -1,0 +1,8 @@
+[2022-09-27 04:27:17.248] [remoteagent] [info] 
+
+
+
+
+[2022-09-27 04:27:17.280] [remoteagent] [info] Extension host agent started.
+[2022-09-27 04:27:17.451] [remoteagent] [error] [172.17.0.1][5a4f99ca][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-09-27 04:27:17.577] [remoteagent] [error] [172.17.0.1][6456a900][ManagementConnection] Unknown reconnection token (never seen).

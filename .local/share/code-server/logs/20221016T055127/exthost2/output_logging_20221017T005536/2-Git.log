@@ -1,0 +1,39 @@
+[2022-10-17T00:55:38.315Z] Log level: Info
+[2022-10-17T00:55:38.327Z] [info] Validating found git in: git
+[2022-10-17T00:55:38.396Z] [info] Using git 2.30.2 from git
+[2022-10-17T00:55:38.432Z] > git rev-parse --show-toplevel [11ms]
+[2022-10-17T00:55:38.432Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-17T00:55:38.448Z] > git rev-parse --show-toplevel [3ms]
+[2022-10-17T00:55:38.448Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-17T00:55:38.458Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-17T00:55:38.458Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-17T00:55:38.468Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-17T00:55:38.468Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-17T00:55:39.063Z] > git rev-parse --show-toplevel [10ms]
+[2022-10-17T00:55:39.063Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-17T00:55:40.770Z] > git rev-parse --show-toplevel [4ms]
+[2022-10-17T00:55:40.778Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-10-17T00:55:40.788Z] [info] Open repository: /home/server/My-blog
+[2022-10-17T00:55:40.799Z] > git status -z -uall [2ms]
+[2022-10-17T00:55:40.811Z] > git symbolic-ref --short HEAD [5ms]
+[2022-10-17T00:55:40.828Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-10-17T00:55:40.849Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+[2022-10-17T00:55:40.853Z] > git remote --verbose [6ms]
+[2022-10-17T00:55:40.870Z] > git config --get commit.template [5ms]
+[2022-10-17T00:55:40.880Z] > git status -z -uall [3ms]
+[2022-10-17T00:55:40.890Z] > git symbolic-ref --short HEAD [5ms]
+[2022-10-17T00:55:40.899Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-10-17T00:55:40.916Z] > git remote --verbose [1ms]
+[2022-10-17T00:55:40.917Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-10-17T00:55:40.925Z] > git config --get commit.template [1ms]
+[2022-10-17T00:55:41.396Z] > git check-ignore -v -z --stdin [4ms]
+[2022-10-17T00:55:41.479Z] > git show --textconv :src/App.js [15ms]
+[2022-10-17T00:55:41.481Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [4ms]
+[2022-10-17T00:55:41.505Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [2ms]
+[2022-10-17T00:58:06.312Z] > git rev-parse --show-toplevel [4ms]
+[2022-10-17T00:58:06.312Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-17T00:58:08.994Z] > git show --textconv :src/App.js [29ms]
+[2022-10-17T00:58:08.996Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [26ms]
+[2022-10-17T00:58:09.003Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [3ms]
+[2022-10-17T00:58:09.935Z] > git rev-parse --show-toplevel [3ms]
+[2022-10-17T00:58:09.935Z] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,41 @@
+[2022-10-08T12:21:02.477Z] Log level: Info
+[2022-10-08T12:21:02.490Z] [info] Validating found git in: git
+[2022-10-08T12:21:02.544Z] [info] Using git 2.30.2 from git
+[2022-10-08T12:21:02.631Z] > git rev-parse --show-toplevel [63ms]
+[2022-10-08T12:21:02.632Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-08T12:21:02.653Z] > git rev-parse --show-toplevel [8ms]
+[2022-10-08T12:21:02.664Z] > git rev-parse --git-dir --git-common-dir [3ms]
+[2022-10-08T12:21:02.678Z] [info] Open repository: /home/coder/My-blog
+[2022-10-08T12:21:02.715Z] > git status -z -uall [21ms]
+[2022-10-08T12:21:02.745Z] > git rev-parse --show-toplevel [33ms]
+[2022-10-08T12:21:02.746Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-08T12:21:02.825Z] > git symbolic-ref --short HEAD [82ms]
+[2022-10-08T12:21:02.851Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+[2022-10-08T12:21:02.870Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-10-08T12:21:02.876Z] > git remote --verbose [8ms]
+[2022-10-08T12:21:02.909Z] > git config --get commit.template [8ms]
+[2022-10-08T12:21:02.958Z] > git status -z -uall [12ms]
+[2022-10-08T12:21:03.005Z] > git symbolic-ref --short HEAD [22ms]
+[2022-10-08T12:21:03.026Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-08T12:21:03.084Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]
+[2022-10-08T12:21:03.087Z] > git remote --verbose [5ms]
+[2022-10-08T12:21:03.108Z] > git config --get commit.template [4ms]
+[2022-10-08T12:21:03.403Z] > git check-ignore -v -z --stdin [4ms]
+[2022-10-08T12:21:03.540Z] > git show --textconv :src/reportWebVitals.js [14ms]
+[2022-10-08T12:21:03.544Z] > git ls-files --stage -- /home/coder/My-blog/src/reportWebVitals.js [5ms]
+[2022-10-08T12:21:03.557Z] > git cat-file -s 5253d3ad9e6be6690549cb255f5952337b02401d [3ms]
+[2022-10-08T12:21:04.175Z] > git rev-parse --show-toplevel [8ms]
+[2022-10-08T12:21:04.175Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-08T12:21:28.715Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-08T12:36:48.296Z] > git check-ignore -v -z --stdin [22ms]
+[2022-10-08T12:36:48.297Z] > git show --textconv :node_modules/react-scripts/scripts/start.js [9ms]
+[2022-10-08T12:36:48.298Z] > git ls-files --stage -- /home/coder/My-blog/node_modules/react-scripts/scripts/start.js [3ms]
+[2022-10-08T12:36:49.095Z] > git check-ignore -v -z --stdin [2ms]
+[2022-10-08T12:36:50.396Z] > git check-ignore -v -z --stdin [3ms]
+[2022-10-08T12:36:51.581Z] > git show --textconv :src/reportWebVitals.js [5ms]
+[2022-10-08T12:36:51.582Z] > git ls-files --stage -- /home/coder/My-blog/src/reportWebVitals.js [2ms]
+[2022-10-08T12:36:51.587Z] > git cat-file -s 5253d3ad9e6be6690549cb255f5952337b02401d [2ms]
+[2022-10-08T12:36:51.896Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-08T12:36:56.940Z] > git show --textconv :src/App.js [11ms]
+[2022-10-08T12:36:56.944Z] > git ls-files --stage -- /home/coder/My-blog/src/App.js [6ms]
+[2022-10-08T12:36:56.955Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [5ms]

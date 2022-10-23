@@ -1,0 +1,13 @@
+[2022-10-16 05:32:53.987] [remoteagent] [info] 
+
+
+
+
+[2022-10-16 05:32:54.021] [remoteagent] [info] Extension host agent started.
+[2022-10-16 05:32:54.200] [remoteagent] [error] [172.17.0.1][1b0bb28a][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-10-16 05:32:54.339] [remoteagent] [error] [172.17.0.1][be2b8507][ManagementConnection] Unknown reconnection token (never seen).
+[2022-10-16 05:32:56.534] [remoteagent] [info] [172.17.0.1][92a4f607][ManagementConnection] New connection established.
+[2022-10-16 05:32:57.324] [remoteagent] [info] [172.17.0.1][6cd86370][ExtensionHostConnection] New connection established.
+[2022-10-16 05:32:57.338] [remoteagent] [info] [172.17.0.1][6cd86370][ExtensionHostConnection] <61> Launched Extension Host Process.
+[2022-10-16 05:32:59.184] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[2022-10-16 05:33:48.765] [remoteagent] [error] [File Watcher (node.js)] Failed to watch /home/server/My-blog/public/menu.png for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/server/My-blog/public/menu.png')

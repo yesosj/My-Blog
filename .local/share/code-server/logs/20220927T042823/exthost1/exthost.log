@@ -1,0 +1,20 @@
+[2022-09-27 04:28:27.136] [exthost] [info] Extension host with pid 74 started
+[2022-09-27 04:28:27.139] [exthost] [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock'
+[2022-09-27 04:28:27.149] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-09-27 04:28:27.156] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': The pid 73 appears to be gone.
+[2022-09-27 04:28:27.156] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Deleting a stale lock.
+[2022-09-27 04:28:27.174] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Lock acquired.
+[2022-09-27 04:28:27.222] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-27 04:28:27.228] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-27 04:28:27.233] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-27 04:28:27.350] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-27 04:28:27.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-27 04:28:27.568] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-27 04:28:27.587] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-27 04:28:27.592] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-27 04:28:27.600] [exthost] [info] Eager extensions activated
+[2022-09-27 04:28:40.986] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-27 04:28:40.992] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-27 04:28:41.007] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-27 04:28:41.081] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-27 04:28:41.662] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

@@ -1,0 +1,27 @@
+[2022-10-14 06:12:22.797] [remoteagent] [info] 
+
+
+
+
+[2022-10-14 06:12:22.832] [remoteagent] [info] Extension host agent started.
+[2022-10-14 06:12:23.002] [remoteagent] [error] [172.17.0.1][77ee43b7][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-10-14 06:12:23.127] [remoteagent] [error] [172.17.0.1][c8f39bbb][ManagementConnection] Unknown reconnection token (never seen).
+[2022-10-14 06:12:27.018] [remoteagent] [info] [172.17.0.1][70c80851][ManagementConnection] New connection established.
+[2022-10-14 06:12:27.805] [remoteagent] [info] [172.17.0.1][783cbd75][ExtensionHostConnection] New connection established.
+[2022-10-14 06:12:27.819] [remoteagent] [info] [172.17.0.1][783cbd75][ExtensionHostConnection] <61> Launched Extension Host Process.
+[2022-10-14 06:12:29.993] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[2022-10-14 06:14:25.392] [remoteagent] [info] [172.17.0.1][70c80851][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-14 06:14:25.416] [remoteagent] [info] [172.17.0.1][783cbd75][ExtensionHostConnection] <61> Extension Host Process exited with code: 0, signal: null.
+[2022-10-16 05:31:19.691] [remoteagent] [info] [172.17.0.1][be2b8507][ManagementConnection] New connection established.
+[2022-10-16 05:31:19.827] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[2022-10-16 05:31:20.713] [remoteagent] [info] [172.17.0.1][1b0bb28a][ExtensionHostConnection] New connection established.
+[2022-10-16 05:31:20.747] [remoteagent] [info] [172.17.0.1][1b0bb28a][ExtensionHostConnection] <614> Launched Extension Host Process.
+[2022-10-16 05:31:21.311] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[2022-10-16 05:31:55.132] [remoteagent] [error] [File Watcher (node.js)] Failed to watch /home/server/My-blog/.git for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/server/My-blog/.git')
+[2022-10-16 05:31:55.246] [remoteagent] [error] [File Watcher (node.js)] Failed to watch /home/server/My-blog/.git/refs/remotes/origin/master for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/server/My-blog/.git/refs/remotes/origin/master')

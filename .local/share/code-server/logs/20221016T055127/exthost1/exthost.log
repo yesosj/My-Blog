@@ -1,0 +1,16 @@
+[2022-10-16 05:51:31.568] [exthost] [info] Extension host with pid 61 started
+[2022-10-16 05:51:31.571] [exthost] [error] Error: EEXIST: file already exists, open '/home/coder/.local/share/code-server/User/workspaceStorage/6a59749/vscode.lock'
+[2022-10-16 05:51:31.574] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/6a59749/vscode.lock': Lock acquired.
+[2022-10-16 05:51:31.826] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-10-16 05:51:31.936] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-16 05:51:31.941] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-16 05:51:31.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-16 05:51:32.294] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-16 05:51:32.535] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-16 05:51:32.795] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-16 05:51:32.830] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-16 05:51:32.838] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-16 05:51:32.848] [exthost] [info] Eager extensions activated
+[2022-10-16 06:19:28.576] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-16 06:19:28.576] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/6a59749/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-16 06:19:28.594] [exthost] [info] Extension host with pid 61 exiting with code 0

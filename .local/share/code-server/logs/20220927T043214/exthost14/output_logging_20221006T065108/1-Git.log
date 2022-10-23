@@ -1,0 +1,51 @@
+[2022-10-06T06:51:08.873Z] Log level: Info
+[2022-10-06T06:51:08.880Z] [info] Validating found git in: git
+[2022-10-06T06:51:08.924Z] [info] Using git 2.30.2 from git
+[2022-10-06T06:51:08.942Z] > git rev-parse --show-toplevel [4ms]
+[2022-10-06T06:51:08.942Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-06T06:51:08.951Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-06T06:51:08.951Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-06T06:51:08.956Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-06T06:51:08.956Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-06T06:51:08.962Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-06T06:51:08.962Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-06T06:51:08.968Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-06T06:51:08.968Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-06T06:51:08.974Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-06T06:51:08.974Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-06T06:51:08.979Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-06T06:51:08.992Z] > git rev-parse --git-dir --git-common-dir [8ms]
+[2022-10-06T06:51:08.999Z] [info] Open repository: /home/coder/My-blog
+[2022-10-06T06:51:09.015Z] > git status -z -uall [8ms]
+[2022-10-06T06:51:09.021Z] > git rev-parse --show-toplevel [7ms]
+[2022-10-06T06:51:09.021Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-06T06:51:09.022Z] > git symbolic-ref --short HEAD [2ms]
+[2022-10-06T06:51:09.028Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-10-06T06:51:09.039Z] > git remote --verbose [2ms]
+[2022-10-06T06:51:09.039Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-10-06T06:51:09.056Z] > git config --get commit.template [5ms]
+[2022-10-06T06:51:09.064Z] > git status -z -uall [2ms]
+[2022-10-06T06:51:09.070Z] > git symbolic-ref --short HEAD [2ms]
+[2022-10-06T06:51:09.078Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-10-06T06:51:09.088Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-10-06T06:51:09.089Z] > git remote --verbose [3ms]
+[2022-10-06T06:51:09.099Z] > git config --get commit.template [4ms]
+[2022-10-06T06:51:09.571Z] > git check-ignore -v -z --stdin [2ms]
+[2022-10-06T06:51:13.237Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-06T06:51:14.159Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-06T06:51:15.137Z] > git show --textconv :src/App.js [17ms]
+[2022-10-06T06:51:15.137Z] > git ls-files --stage -- /home/coder/My-blog/src/App.js [9ms]
+[2022-10-06T06:51:15.145Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [2ms]
+[2022-10-06T06:59:22.218Z] > git show --textconv :src/App.css [11ms]
+[2022-10-06T06:59:22.220Z] > git ls-files --stage -- /home/coder/My-blog/src/App.css [2ms]
+[2022-10-06T06:59:22.229Z] > git cat-file -s ed04ba2ea3e2d14b560c11051c468c2b6fd750a4 [3ms]
+[2022-10-06T17:16:24.490Z] > git check-ignore -v -z --stdin [29ms]
+[2022-10-06T17:16:25.702Z] > git ls-files --stage -- /home/coder/My-blog/public/index.html [1ms]
+[2022-10-06T17:16:25.709Z] > git show --textconv :public/index.html [14ms]
+[2022-10-06T17:16:25.710Z] > git cat-file -s aa069f27cbd9d53394428171c3989fd03db73c76 [2ms]
+[2022-10-06T17:16:38.292Z] > git show --textconv :src/index.css [6ms]
+[2022-10-06T17:16:38.293Z] > git ls-files --stage -- /home/coder/My-blog/src/index.css [1ms]
+[2022-10-06T17:16:38.299Z] > git cat-file -s ec2585e8c0bb8188184ed1e0703c4c8f2a8419b0 [2ms]
+[2022-10-06T17:16:40.780Z] > git show --textconv :src/index.js [11ms]
+[2022-10-06T17:16:40.781Z] > git ls-files --stage -- /home/coder/My-blog/src/index.js [2ms]
+[2022-10-06T17:16:40.789Z] > git cat-file -s 958e43a16d13fd1156edab8219dc033082be1c47 [3ms]

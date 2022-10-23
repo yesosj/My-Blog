@@ -1,0 +1,33 @@
+[2022-10-11T09:57:53.064Z] Log level: Info
+[2022-10-11T09:57:53.075Z] [info] Validating found git in: git
+[2022-10-11T09:57:53.134Z] [info] Using git 2.30.2 from git
+[2022-10-11T09:57:53.236Z] > git rev-parse --show-toplevel [77ms]
+[2022-10-11T09:57:53.236Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-11T09:57:53.254Z] > git rev-parse --show-toplevel [4ms]
+[2022-10-11T09:57:53.265Z] > git rev-parse --git-dir --git-common-dir [4ms]
+[2022-10-11T09:57:53.279Z] [info] Open repository: /home/coder/My-blog
+[2022-10-11T09:57:53.306Z] > git status -z -uall [12ms]
+[2022-10-11T09:57:53.317Z] > git rev-parse --show-toplevel [13ms]
+[2022-10-11T09:57:53.317Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-11T09:57:53.327Z] > git symbolic-ref --short HEAD [12ms]
+[2022-10-11T09:57:53.340Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+[2022-10-11T09:57:53.357Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-10-11T09:57:53.426Z] > git remote --verbose [71ms]
+[2022-10-11T09:57:53.460Z] > git config --get commit.template [16ms]
+[2022-10-11T09:57:53.484Z] > git status -z -uall [5ms]
+[2022-10-11T09:57:53.519Z] > git symbolic-ref --short HEAD [12ms]
+[2022-10-11T09:57:53.554Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [19ms]
+[2022-10-11T09:57:53.573Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-10-11T09:57:53.580Z] > git remote --verbose [9ms]
+[2022-10-11T09:57:53.593Z] > git config --get commit.template [3ms]
+[2022-10-11T09:57:53.984Z] > git check-ignore -v -z --stdin [4ms]
+[2022-10-11T09:57:54.542Z] > git rev-parse --show-toplevel [14ms]
+[2022-10-11T09:57:54.542Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-11T09:57:54.831Z] > git check-ignore -v -z --stdin [65ms]
+[2022-10-11T09:57:54.834Z] > git show --textconv :src/App.js [35ms]
+[2022-10-11T09:57:54.834Z] > git ls-files --stage -- /home/coder/My-blog/src/App.js [25ms]
+[2022-10-11T09:57:54.890Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [49ms]
+[2022-10-11T09:58:22.193Z] > git check-ignore -v -z --stdin [2ms]
+[2022-10-11T09:58:24.890Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-11T09:58:27.017Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-11T09:58:32.799Z] > git check-ignore -v -z --stdin [1ms]

@@ -1,0 +1,847 @@
+[2022-09-27 04:32:14.523] [remoteagent] [info] 
+
+
+
+
+[2022-09-27 04:32:14.557] [remoteagent] [info] Extension host agent started.
+[2022-09-27 04:32:14.744] [remoteagent] [error] [172.17.0.1][b3a3df1b][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-09-27 04:32:14.887] [remoteagent] [error] [172.17.0.1][88d740c5][ManagementConnection] Unknown reconnection token (never seen).
+[2022-09-27 04:32:47.282] [remoteagent] [info] [172.17.0.1][be5afaaf][ManagementConnection] New connection established.
+[2022-09-27 04:32:48.101] [remoteagent] [info] [172.17.0.1][d3e96b17][ExtensionHostConnection] New connection established.
+[2022-09-27 04:32:48.135] [remoteagent] [info] [172.17.0.1][d3e96b17][ExtensionHostConnection] <61> Launched Extension Host Process.
+[2022-09-27 04:32:48.860] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-09-27 06:12:46.874] [remoteagent] [info] [172.17.0.1][be5afaaf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-27 06:12:46.946] [remoteagent] [info] [172.17.0.1][d3e96b17][ExtensionHostConnection] <61> Extension Host Process exited with code: 0, signal: null.
+[2022-09-27 09:26:07.844] [remoteagent] [info] [172.17.0.1][91b12347][ManagementConnection] New connection established.
+[2022-09-27 09:26:07.955] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[2022-09-27 09:26:08.799] [remoteagent] [info] [172.17.0.1][d5bba69e][ExtensionHostConnection] New connection established.
+[2022-09-27 09:26:08.871] [remoteagent] [info] [172.17.0.1][d5bba69e][ExtensionHostConnection] <6433> Launched Extension Host Process.
+[2022-09-27 09:26:09.351] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-09-27 11:22:43.675] [remoteagent] [info] [172.17.0.1][91b12347][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-09-27 11:22:43.678] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[2022-09-27 14:22:42.697] [remoteagent] [info] [172.17.0.1][d5bba69e][ExtensionHostConnection] <6433> Extension Host Process exited with code: 0, signal: null.
+[2022-09-27 14:22:53.090] [remoteagent] [info] [172.17.0.1][91b12347][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-09-28 06:36:09.935] [remoteagent] [info] [172.17.0.1][6c973de0][ManagementConnection] New connection established.
+[2022-09-28 06:36:10.989] [remoteagent] [info] [172.17.0.1][743ef5af][ExtensionHostConnection] New connection established.
+[2022-09-28 06:36:11.068] [remoteagent] [info] [172.17.0.1][743ef5af][ExtensionHostConnection] <12084> Launched Extension Host Process.
+[2022-09-28 06:36:11.326] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-09-28 07:30:55.917] [remoteagent] [info] [172.17.0.1][6c973de0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-28 07:30:55.950] [remoteagent] [info] [172.17.0.1][743ef5af][ExtensionHostConnection] <12084> Extension Host Process exited with code: 0, signal: null.
+[2022-09-28 09:46:06.140] [remoteagent] [info] [172.17.0.1][d757acc9][ManagementConnection] New connection established.
+[2022-09-28 09:46:07.443] [remoteagent] [info] [172.17.0.1][59eea1ff][ExtensionHostConnection] New connection established.
+[2022-09-28 09:46:07.588] [remoteagent] [info] [172.17.0.1][59eea1ff][ExtensionHostConnection] <13379> Launched Extension Host Process.
+[2022-09-28 09:46:08.949] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-09-28 11:55:33.492] [remoteagent] [info] [172.17.0.1][d757acc9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-28 11:55:33.605] [remoteagent] [info] [172.17.0.1][59eea1ff][ExtensionHostConnection] <13379> Extension Host Process exited with code: 0, signal: null.
+[2022-09-30 23:11:07.500] [remoteagent] [info] [172.17.0.1][6361a8f5][ManagementConnection] New connection established.
+[2022-09-30 23:11:08.351] [remoteagent] [info] [172.17.0.1][06e571db][ExtensionHostConnection] New connection established.
+[2022-09-30 23:11:08.413] [remoteagent] [info] [172.17.0.1][06e571db][ExtensionHostConnection] <21844> Launched Extension Host Process.
+[2022-09-30 23:11:09.255] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-01 00:18:06.135] [remoteagent] [info] [172.17.0.1][6361a8f5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-01 00:18:06.194] [remoteagent] [info] [172.17.0.1][06e571db][ExtensionHostConnection] <21844> Extension Host Process exited with code: 0, signal: null.
+[2022-10-01 05:46:32.504] [remoteagent] [info] [172.17.0.1][58133924][ManagementConnection] New connection established.
+[2022-10-01 05:46:33.959] [remoteagent] [info] [172.17.0.1][a2cda589][ExtensionHostConnection] New connection established.
+[2022-10-01 05:46:34.094] [remoteagent] [info] [172.17.0.1][a2cda589][ExtensionHostConnection] <23740> Launched Extension Host Process.
+[2022-10-01 05:46:35.263] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-01 13:49:21.389] [remoteagent] [info] [172.17.0.1][58133924][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-01 13:49:21.497] [remoteagent] [info] [172.17.0.1][a2cda589][ExtensionHostConnection] <23740> Extension Host Process exited with code: 0, signal: null.
+[2022-10-02 03:17:04.404] [remoteagent] [info] [172.17.0.1][95d3db2a][ManagementConnection] New connection established.
+[2022-10-02 03:17:05.534] [remoteagent] [info] [172.17.0.1][8b831bd8][ExtensionHostConnection] New connection established.
+[2022-10-02 03:17:05.618] [remoteagent] [info] [172.17.0.1][8b831bd8][ExtensionHostConnection] <6847> Launched Extension Host Process.
+[2022-10-02 03:17:05.792] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-02 05:41:33.032] [remoteagent] [info] [172.17.0.1][95d3db2a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-02 05:41:33.108] [remoteagent] [info] [172.17.0.1][8b831bd8][ExtensionHostConnection] <6847> Extension Host Process exited with code: 0, signal: null.
+[2022-10-02 10:10:22.283] [remoteagent] [info] [172.17.0.1][9de5e454][ManagementConnection] New connection established.
+[2022-10-02 10:10:23.075] [remoteagent] [info] [172.17.0.1][80230256][ExtensionHostConnection] New connection established.
+[2022-10-02 10:10:23.093] [remoteagent] [info] [172.17.0.1][80230256][ExtensionHostConnection] <12058> Launched Extension Host Process.
+[2022-10-02 10:10:24.576] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-02 10:24:47.341] [remoteagent] [info] [172.17.0.1][9de5e454][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-10-02 10:24:47.343] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[2022-10-02 11:06:25.168] [remoteagent] [info] [172.17.0.1][9de5e454][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-10-02 11:06:25.169] [remoteagent] [info] [172.17.0.1][061a4378][ManagementConnection] New connection established.
+[2022-10-02 11:06:26.474] [remoteagent] [info] [172.17.0.1][38338c04][ExtensionHostConnection] New connection established.
+[2022-10-02 11:06:26.584] [remoteagent] [info] [172.17.0.1][38338c04][ExtensionHostConnection] <12425> Launched Extension Host Process.
+[2022-10-02 11:06:26.610] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-02 11:11:25.345] [remoteagent] [info] [172.17.0.1][9de5e454][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-10-02 11:11:25.482] [remoteagent] [info] [172.17.0.1][80230256][ExtensionHostConnection] <12058> Extension Host Process exited with code: 0, signal: null.
+[2022-10-02 12:20:09.810] [remoteagent] [info] [172.17.0.1][061a4378][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-02 12:20:09.880] [remoteagent] [info] [172.17.0.1][38338c04][ExtensionHostConnection] <12425> Extension Host Process exited with code: 0, signal: null.
+[2022-10-03 04:48:44.583] [remoteagent] [info] [172.17.0.1][8be538d7][ManagementConnection] New connection established.
+[2022-10-03 04:48:45.710] [remoteagent] [info] [172.17.0.1][818dd734][ExtensionHostConnection] New connection established.
+[2022-10-03 04:48:45.792] [remoteagent] [info] [172.17.0.1][818dd734][ExtensionHostConnection] <18263> Launched Extension Host Process.
+[2022-10-03 04:48:46.046] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-03 06:59:46.863] [remoteagent] [info] [172.17.0.1][8be538d7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-03 06:59:46.963] [remoteagent] [info] [172.17.0.1][818dd734][ExtensionHostConnection] <18263> Extension Host Process exited with code: 0, signal: null.
+[2022-10-04 05:05:17.168] [remoteagent] [info] [172.17.0.1][b8ed17b7][ManagementConnection] New connection established.
+[2022-10-04 05:05:18.392] [remoteagent] [info] [172.17.0.1][2efd074a][ExtensionHostConnection] New connection established.
+[2022-10-04 05:05:18.427] [remoteagent] [info] [172.17.0.1][2efd074a][ExtensionHostConnection] <27490> Launched Extension Host Process.
+[2022-10-04 05:05:18.507] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-04 06:20:14.055] [remoteagent] [info] [172.17.0.1][b8ed17b7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-04 06:20:14.178] [remoteagent] [info] [172.17.0.1][2efd074a][ExtensionHostConnection] <27490> Extension Host Process exited with code: 0, signal: null.
+[2022-10-05 11:07:46.149] [remoteagent] [info] [172.17.0.1][48b7fde9][ManagementConnection] New connection established.
+[2022-10-05 11:07:47.927] [remoteagent] [info] [172.17.0.1][a13864a8][ExtensionHostConnection] New connection established.
+[2022-10-05 11:07:47.939] [remoteagent] [info] [172.17.0.1][a13864a8][ExtensionHostConnection] <5496> Launched Extension Host Process.
+[2022-10-05 11:07:48.165] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-05 12:27:05.912] [remoteagent] [info] [172.17.0.1][48b7fde9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-05 12:27:06.062] [remoteagent] [info] [172.17.0.1][a13864a8][ExtensionHostConnection] <5496> Extension Host Process exited with code: 0, signal: null.
+[2022-10-05 12:32:52.680] [remoteagent] [info] [172.17.0.1][ea52363c][ManagementConnection] New connection established.
+[2022-10-05 12:32:53.556] [remoteagent] [info] [172.17.0.1][82e3d2bd][ExtensionHostConnection] New connection established.
+[2022-10-05 12:32:53.683] [remoteagent] [info] [172.17.0.1][82e3d2bd][ExtensionHostConnection] <27275> Launched Extension Host Process.
+[2022-10-05 12:32:56.210] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-05 12:33:16.062] [remoteagent] [info] [172.17.0.1][ea52363c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-05 12:33:16.091] [remoteagent] [info] [172.17.0.1][82e3d2bd][ExtensionHostConnection] <27275> Extension Host Process exited with code: 0, signal: null.
+[2022-10-06 06:51:04.491] [remoteagent] [info] [172.17.0.1][65d0a366][ManagementConnection] New connection established.
+[2022-10-06 06:51:06.350] [remoteagent] [info] [172.17.0.1][3f06cf4b][ExtensionHostConnection] New connection established.
+[2022-10-06 06:51:06.433] [remoteagent] [info] [172.17.0.1][3f06cf4b][ExtensionHostConnection] <27467> Launched Extension Host Process.
+[2022-10-06 06:51:06.538] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[2022-10-06 14:27:39.802] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-10-06 14:27:39.853] [remoteagent] [error] ptyHost terminated unexpectedly with code null
+[2022-10-06 14:27:40.001] [remoteagent] [info] [172.17.0.1][65d0a366][ManagementConnection] The client has reconnected.
+[2022-10-06 14:27:40.861] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4930
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29274)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[2022-10-06 14:27:40.862] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at Proxy._event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at l._startPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4641)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8421)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4930
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29274)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[2022-10-06 14:27:44.806] [remoteagent] [error] No ptyHost heartbeat after 12 seconds
+[2022-10-06 14:27:45.060] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 14:27:45.060] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 14:27:45.060] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 14:27:45.062] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 16:41:05.286] [remoteagent] [error] Error: disposed
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26729)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at g.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:77799)
+    at u.onPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5876)
+    at u.onRawMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5252)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:4533
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at l.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:18977)
+    at n._receiveMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:23789)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:22809
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:15808)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:14938
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y._processReadQueue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:38187)
+[2022-10-06 16:41:09.266] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 16:41:09.266] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 16:41:09.266] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 16:41:09.266] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 16:41:25.471] [remoteagent] [error] Error: disposed
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26729)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at g.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:77799)
+    at u.onPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5876)
+    at u.onRawMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5252)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:4533
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at l.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:18977)
+    at n._receiveMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:23789)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:22809
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:15808)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:14938
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y._processReadQueue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:38187)
+[2022-10-06 16:41:29.538] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 16:41:29.540] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 16:41:29.540] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 16:41:29.540] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-06 17:17:14.968] [remoteagent] [info] [172.17.0.1][3f06cf4b][ExtensionHostConnection] <27467> Extension Host Process exited with code: 0, signal: null.
+[2022-10-06 17:17:15.168] [remoteagent] [info] [172.17.0.1][65d0a366][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-07 07:51:16.211] [remoteagent] [info] [172.17.0.1][b15ad508][ManagementConnection] New connection established.
+[2022-10-07 07:51:17.608] [remoteagent] [info] [172.17.0.1][2a24c9ec][ExtensionHostConnection] New connection established.
+[2022-10-07 07:51:18.889] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230)
+[2022-10-07 07:51:19.887] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[2022-10-07 07:51:19.888] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 07:51:19.889] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 07:51:19.889] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 08:01:00.442] [remoteagent] [info] [172.17.0.1][b15ad508][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-07 08:01:01.801] [remoteagent] [info] [172.17.0.1][5c1a5acb][ManagementConnection] New connection established.
+[2022-10-07 08:01:03.108] [remoteagent] [info] [172.17.0.1][ffbbb508][ExtensionHostConnection] New connection established.
+[2022-10-07 08:01:04.599] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230)
+[2022-10-07 08:01:05.598] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[2022-10-07 08:01:05.599] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 08:01:05.600] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 08:01:05.600] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 08:02:24.988] [remoteagent] [info] [172.17.0.1][5c1a5acb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-07 08:42:37.468] [remoteagent] [info] [172.17.0.1][4061a729][ManagementConnection] New connection established.
+[2022-10-07 08:42:38.867] [remoteagent] [info] [172.17.0.1][8783b8fc][ExtensionHostConnection] New connection established.
+[2022-10-07 08:42:40.894] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230)
+[2022-10-07 08:42:41.892] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[2022-10-07 08:42:41.893] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 08:42:41.894] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 08:42:41.895] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 08:44:18.598] [remoteagent] [info] [172.17.0.1][4061a729][ManagementConnection] The client has reconnected.
+[2022-10-07 08:44:18.618] [remoteagent] [info] [172.17.0.1][8783b8fc][ExtensionHostConnection] The client has reconnected.
+[2022-10-07 08:44:31.938] [remoteagent] [info] [172.17.0.1][4061a729][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-07 15:32:14.393] [remoteagent] [info] [172.17.0.1][2d5ba2c1][ManagementConnection] New connection established.
+[2022-10-07 15:32:15.766] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230)
+[2022-10-07 15:32:16.185] [remoteagent] [info] [172.17.0.1][e3a488db][ExtensionHostConnection] New connection established.
+[2022-10-07 15:32:16.765] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[2022-10-07 15:32:16.765] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:32:16.766] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:32:16.767] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:39:11.035] [remoteagent] [info] [172.17.0.1][2d5ba2c1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-07 15:39:13.806] [remoteagent] [info] [172.17.0.1][4145a386][ManagementConnection] New connection established.
+[2022-10-07 15:39:14.928] [remoteagent] [info] [172.17.0.1][501833e6][ExtensionHostConnection] New connection established.
+[2022-10-07 15:39:16.655] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230)
+[2022-10-07 15:39:17.654] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[2022-10-07 15:39:17.655] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:39:17.655] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:39:17.656] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:39:43.820] [remoteagent] [info] [172.17.0.1][393ee80f][ManagementConnection] New connection established.
+[2022-10-07 15:39:45.183] [remoteagent] [info] [172.17.0.1][90d73d6c][ExtensionHostConnection] New connection established.
+[2022-10-07 15:39:45.410] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 541
+[2022-10-07 15:39:45.412] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 542
+[2022-10-07 15:39:45.819] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 543
+[2022-10-07 15:39:45.845] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 544
+[2022-10-07 15:39:45.923] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 545
+[2022-10-07 15:39:45.925] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 546
+[2022-10-07 15:39:45.930] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 547
+[2022-10-07 15:39:45.960] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 548
+[2022-10-07 15:39:45.971] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 549
+[2022-10-07 15:39:46.770] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230)
+[2022-10-07 15:39:47.768] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[2022-10-07 15:39:47.769] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:39:47.769] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:39:47.769] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-07 15:39:54.992] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 550
+[2022-10-07 15:39:55.021] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 551
+[2022-10-07 15:39:55.051] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 552
+[2022-10-07 15:39:55.071] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 553
+[2022-10-07 15:39:55.091] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 554
+[2022-10-07 15:39:55.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 555
+[2022-10-07 15:39:55.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 556
+[2022-10-07 15:39:55.099] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 557
+[2022-10-07 15:39:55.100] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 558
+[2022-10-07 15:43:46.564] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 559
+[2022-10-07 15:43:46.871] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 560
+[2022-10-07 15:43:46.873] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 561
+[2022-10-07 15:43:46.873] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 562
+[2022-10-07 15:43:46.874] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 563
+[2022-10-07 15:43:46.922] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 564
+[2022-10-07 15:43:46.934] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 565
+[2022-10-07 15:43:46.952] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 566
+[2022-10-07 15:43:46.975] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 567
+[2022-10-07 15:43:48.813] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 568
+[2022-10-07 15:43:48.813] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 569
+[2022-10-07 15:43:48.813] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 570
+[2022-10-07 15:43:48.814] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 571
+[2022-10-07 15:43:48.824] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 572
+[2022-10-07 15:43:48.825] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 573
+[2022-10-07 15:43:48.832] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 574
+[2022-10-07 15:43:48.832] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 575
+[2022-10-07 15:43:48.833] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 576
+[2022-10-07 15:43:51.897] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-07 15:45:58.751] [remoteagent] [info] [172.17.0.1][393ee80f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-10-07 15:45:58.751] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[2022-10-07 15:48:56.828] [remoteagent] [info] [172.17.0.1][4145a386][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-07 18:46:08.805] [remoteagent] [info] [172.17.0.1][393ee80f][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2022-10-08 11:43:34.016] [remoteagent] [info] [172.17.0.1][011456e6][ManagementConnection] New connection established.
+[2022-10-08 11:43:35.355] [remoteagent] [info] [172.17.0.1][f3fc954d][ExtensionHostConnection] New connection established.
+[2022-10-08 11:43:36.910] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230)
+[2022-10-08 11:43:37.910] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[2022-10-08 11:43:37.910] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-08 11:43:37.911] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-08 11:43:37.911] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-08 11:48:17.011] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-08 11:57:20.945] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-08 11:57:22.769] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-08 11:57:28.475] [remoteagent] [error] No ptyHost response to createProcess after 5 seconds
+[2022-10-08 12:02:10.892] [remoteagent] [info] [172.17.0.1][011456e6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-08 12:02:13.781] [remoteagent] [info] [172.17.0.1][d606ccb7][ManagementConnection] New connection established.
+[2022-10-08 12:02:14.394] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230)
+[2022-10-08 12:02:14.767] [remoteagent] [info] [172.17.0.1][b4089dde][ExtensionHostConnection] New connection established.
+[2022-10-08 12:02:15.392] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[2022-10-08 12:02:15.393] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-08 12:02:15.393] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[2022-10-08 12:02:15.393] [remoteagent] [error] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)

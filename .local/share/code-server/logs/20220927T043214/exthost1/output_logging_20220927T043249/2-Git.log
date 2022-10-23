@@ -1,0 +1,54 @@
+[2022-09-27T04:32:51.609Z] Log level: Info
+[2022-09-27T04:32:51.620Z] [info] Validating found git in: git
+[2022-09-27T04:32:51.662Z] [info] Using git 2.30.2 from git
+[2022-09-27T04:32:51.720Z] > git rev-parse --show-toplevel [39ms]
+[2022-09-27T04:32:51.720Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-27T04:32:51.737Z] > git rev-parse --show-toplevel [7ms]
+[2022-09-27T04:32:51.762Z] > git rev-parse --git-dir --git-common-dir [20ms]
+[2022-09-27T04:32:51.770Z] [info] Open repository: /home/coder/My-blog
+[2022-09-27T04:32:51.787Z] > git status -z -uall [8ms]
+[2022-09-27T04:32:51.794Z] > git rev-parse --show-toplevel [10ms]
+[2022-09-27T04:32:51.794Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-27T04:32:51.801Z] > git symbolic-ref --short HEAD [9ms]
+[2022-09-27T04:32:51.807Z] > git rev-parse --show-toplevel [8ms]
+[2022-09-27T04:32:51.807Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-27T04:32:51.814Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+[2022-09-27T04:32:51.835Z] > git remote --verbose [11ms]
+[2022-09-27T04:32:51.835Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+[2022-09-27T04:32:51.843Z] > git rev-parse --show-toplevel [30ms]
+[2022-09-27T04:32:51.843Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-27T04:32:51.872Z] > git rev-parse --show-toplevel [21ms]
+[2022-09-27T04:32:51.872Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-27T04:32:51.884Z] > git rev-parse --show-toplevel [7ms]
+[2022-09-27T04:32:51.884Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-27T04:32:51.890Z] > git config --get commit.template [21ms]
+[2022-09-27T04:32:51.900Z] > git status -z -uall [4ms]
+[2022-09-27T04:32:51.906Z] > git rev-parse --show-toplevel [17ms]
+[2022-09-27T04:32:51.906Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-09-27T04:32:51.907Z] > git symbolic-ref --short HEAD [2ms]
+[2022-09-27T04:32:51.913Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+[2022-09-27T04:32:51.925Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-09-27T04:32:51.926Z] > git remote --verbose [3ms]
+[2022-09-27T04:32:51.934Z] > git config --get commit.template [1ms]
+[2022-09-27T04:32:52.469Z] > git check-ignore -v -z --stdin [2ms]
+[2022-09-27T04:32:53.077Z] > git show --textconv :package.json [7ms]
+[2022-09-27T04:32:53.079Z] > git ls-files --stage -- /home/coder/My-blog/package.json [3ms]
+[2022-09-27T04:32:53.085Z] > git cat-file -s 4b11d1a1759a96a23a0d35cae3027961c0d0f178 [1ms]
+[2022-09-27T04:34:21.607Z] > git check-ignore -v -z --stdin [1ms]
+[2022-09-27T04:34:22.249Z] > git show --textconv :src/App.js [9ms]
+[2022-09-27T04:34:22.250Z] > git ls-files --stage -- /home/coder/My-blog/src/App.js [2ms]
+[2022-09-27T04:34:22.260Z] > git cat-file -s bb8980f3e96975c767c519667bd6634c814e19af [2ms]
+[2022-09-27T04:52:30.302Z] > git show --textconv :src/App.css [7ms]
+[2022-09-27T04:52:30.303Z] > git ls-files --stage -- /home/coder/My-blog/src/App.css [2ms]
+[2022-09-27T04:52:30.311Z] > git cat-file -s 411cc57bed9bc2ee200aaeadd070737188d874ef [2ms]
+[2022-09-27T04:59:49.534Z] > git show --textconv :src/App.js [7ms]
+[2022-09-27T04:59:49.535Z] > git ls-files --stage -- /home/coder/My-blog/src/App.js [2ms]
+[2022-09-27T04:59:49.541Z] > git cat-file -s bb8980f3e96975c767c519667bd6634c814e19af [1ms]
+[2022-09-27T06:06:00.892Z] > git check-ignore -v -z --stdin [4ms]
+[2022-09-27T06:06:07.990Z] > git show --textconv :public/menu.icon [9ms]
+[2022-09-27T06:06:07.991Z] > git ls-files --stage -- /home/coder/My-blog/public/menu.icon [1ms]
+[2022-09-27T06:06:08.149Z] > git check-ignore -v -z --stdin [1ms]
+[2022-09-27T06:06:17.602Z] > git check-ignore -v -z --stdin [1ms]
+[2022-09-27T06:11:53.696Z] > git show --textconv :src/App.js [5ms]
+[2022-09-27T06:11:53.697Z] > git ls-files --stage -- /home/coder/My-blog/src/App.js [1ms]
+[2022-09-27T06:11:53.704Z] > git cat-file -s bb8980f3e96975c767c519667bd6634c814e19af [1ms]

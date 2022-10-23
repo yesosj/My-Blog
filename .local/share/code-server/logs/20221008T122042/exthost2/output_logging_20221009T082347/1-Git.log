@@ -1,0 +1,31 @@
+[2022-10-09T08:23:48.887Z] Log level: Info
+[2022-10-09T08:23:48.896Z] [info] Validating found git in: git
+[2022-10-09T08:23:48.929Z] [info] Using git 2.30.2 from git
+[2022-10-09T08:23:48.983Z] > git rev-parse --show-toplevel [40ms]
+[2022-10-09T08:23:48.983Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-09T08:23:48.992Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-09T08:23:48.992Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-09T08:23:50.000Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-09T08:23:50.000Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-09T08:23:57.945Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-09T08:23:57.952Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-10-09T08:23:57.960Z] [info] Open repository: /home/coder/My-blog
+[2022-10-09T08:23:57.975Z] > git status -z -uall [7ms]
+[2022-10-09T08:23:57.982Z] > git symbolic-ref --short HEAD [2ms]
+[2022-10-09T08:23:57.988Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-09T08:23:57.998Z] > git remote --verbose [1ms]
+[2022-10-09T08:23:57.999Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-10-09T08:23:58.010Z] > git config --get commit.template [1ms]
+[2022-10-09T08:23:58.017Z] > git status -z -uall [1ms]
+[2022-10-09T08:23:58.023Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-09T08:23:58.028Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-10-09T08:23:58.038Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-09T08:23:58.039Z] > git remote --verbose [2ms]
+[2022-10-09T08:23:58.047Z] > git config --get commit.template [2ms]
+[2022-10-09T08:23:58.742Z] > git check-ignore -v -z --stdin [4ms]
+[2022-10-09T08:24:00.167Z] > git show --textconv :src/App.js [18ms]
+[2022-10-09T08:24:00.171Z] > git ls-files --stage -- /home/coder/My-blog/src/App.js [5ms]
+[2022-10-09T08:24:00.183Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [4ms]
+[2022-10-09T08:24:58.899Z] > git show --textconv :src/App.css [7ms]
+[2022-10-09T08:24:58.900Z] > git ls-files --stage -- /home/coder/My-blog/src/App.css [3ms]
+[2022-10-09T08:24:58.905Z] > git cat-file -s ed04ba2ea3e2d14b560c11051c468c2b6fd750a4 [1ms]

@@ -1,0 +1,302 @@
+/* .App {
+  text-align: center;
+}
+.div{
+  box-sizing: border-box;
+}
+.ip{
+  text-align: center;
+  background: lightgrey;
+  color: white;
+}
+
+body{
+  font-family: 'nanumsquare';
+}
+.Modal{
+  border: 2px solid blue;
+}
+
+.black-nav{
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.flex-column{
+  margin: auto;
+  line-height: 32px;
+  padding: 10px;
+  height: 500px;
+  position : absolute;
+  top: 200px;
+  left: 50px;
+  transition: all 2s ease 1s;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 20px;
+  color: #999;
+}
+.nav-link:hover{
+  color: black;
+
+}
+ul{
+  padding-left: 0;
+  margin-left: 0;
+  transition: all 1s ease-out 1s;
+}
+li{
+  display: none;
+  border-left : 1px solid #eee;
+}
+li>.nav-link{
+  color: rgba(39, 145, 96, 0.973);
+}
+ul:hover>li{
+  display: block;
+}
+
+
+.top-bar{
+  margin-left: 20px;
+  position: relative;
+}
+.upload{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+
+.domestic{
+  position: absolute;
+  bottom: 440px;
+  left: 35px;
+  line-height: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.domestic button{
+  margin: 2px;
+}
+.domestic h4{
+  box-shadow: 0px 10px 5px;
+}
+.flex{
+  height: 350px; /*아무 수나 해도 상관없는듯? */
+  /* position: absolute;
+  bottom: 100px;
+}
+.Pdomestic{
+  width: 370px;
+  border-bottom: 1px solid grey;
+  text-align: left;
+}
+
+.Modal{
+  height: 100px;
+  width: 100px;
+  border: 1px solid #999;
+}
+.introduce{
+  position: absolute;
+  top: 200px;
+  left: 60px;
+}
+.modal{
+  position: absolute;
+  top: 180px;
+  left: 60px;
+}
+.modal button{
+  margin: 10px;
+  margin-left: 50px;
+}
+.Dpage{
+  position: absolute;
+  top: 200px;
+  left: 60px;
+}
+* button{
+  background-color: aliceblue;
+  border-radius: 5px ;
+  color: #1e6b7b;
+} */ 
+
+
+
+
+@media screen and (max-width : 768px) {
+  .App{
+    text-align: left;
+  }
+  .div{
+    box-sizing: border-box;
+  }
+  .ip{
+    text-align: center;
+    background: lightgrey;
+    color: white;
+  }
+  
+  body{
+    font-family: 'nanumsquare';
+  }
+  /* .top-bar{
+    width: 767px;
+  
+    background-color: #999;
+  } */
+  .start{
+    transform: scale(0);
+    opacity: 0;
+  }
+  .end{
+    transform: scale(1);
+    opacity: 1;
+    transition: all 1s;
+  }
+
+
+  .Modal{
+    border: 2px solid blue;
+  }
+  
+  .black-nav{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  
+  .flex-column{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    margin: auto;
+    line-height: 32px;
+    padding: 10px;
+    height: 500px;
+    position : absolute;
+    top: 200px;
+    left: 50px;
+    transition: all 2s ease 1s;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+  }
+  .nav-link:hover{
+    color: black;
+  
+  }
+  ul{
+    padding-left: 0;
+    margin-left: 0;
+    transition: all 1s ease-out 1s;
+  }
+  li{
+    display: none;
+    border-left : 1px solid #eee;
+  }
+  li>.nav-link{
+    color: rgba(39, 145, 96, 0.973);
+  }
+  ul:hover>li{
+    display: block;
+  }
+  
+  
+  .top-bar{
+    margin-left: 20px;
+    position: relative;
+  }
+  .upload{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+  
+  
+  .domestic{
+    position: absolute;
+    bottom: 440px;
+    left: 35px;
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .domestic button{
+    margin: 2px;
+  }
+  .domestic h4{
+    box-shadow: 0px 10px 5px;
+  }
+  .flex{
+    height: 350px; /*아무 수나 해도 상관없는듯? */
+    position: absolute;
+    bottom: 100px;
+  }
+  .Pdomestic{
+    width: 370px;
+    border-bottom: 1px solid grey;
+    text-align: left;
+    /* border-bottom: 1px solid grey; */
+  }
+  
+  .Modal{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #999;
+  }
+  .introduce{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+  }
+  .modal{
+    position: absolute;
+    top: 180px;
+    left: 60px;
+  }
+  .modal button{
+    margin: 10px;
+    margin-left: 50px;
+  }
+  .Dpage{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+  }
+  * button{
+    background-color: aliceblue;
+    border-radius: 5px ;
+    color: #1e6b7b;
+  }
+}
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

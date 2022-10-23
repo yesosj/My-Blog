@@ -1,0 +1,102 @@
+[2022-10-22T07:24:45.176Z] Log level: Info
+[2022-10-22T07:24:45.197Z] [info] Validating found git in: git
+[2022-10-22T07:24:45.356Z] [info] Using git 2.30.2 from git
+[2022-10-22T07:24:45.424Z] > git rev-parse --show-toplevel [44ms]
+[2022-10-22T07:24:45.424Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T07:24:45.467Z] > git rev-parse --show-toplevel [10ms]
+[2022-10-22T07:24:45.467Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T07:24:45.494Z] > git rev-parse --show-toplevel [7ms]
+[2022-10-22T07:24:45.494Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T07:24:45.543Z] > git rev-parse --show-toplevel [26ms]
+[2022-10-22T07:24:45.543Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T07:26:12.612Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-22T07:26:12.620Z] > git rev-parse --git-dir --git-common-dir [2ms]
+[2022-10-22T07:26:12.633Z] [info] Open repository: /home/server/My-blog
+[2022-10-22T07:26:12.657Z] > git status -z -uall [3ms]
+[2022-10-22T07:26:12.677Z] > git symbolic-ref --short HEAD [11ms]
+[2022-10-22T07:26:12.689Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+[2022-10-22T07:26:12.710Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+[2022-10-22T07:26:12.714Z] > git remote --verbose [10ms]
+[2022-10-22T07:26:12.744Z] > git config --get commit.template [3ms]
+[2022-10-22T07:26:12.758Z] > git status -z -uall [4ms]
+[2022-10-22T07:26:12.771Z] > git symbolic-ref --short HEAD [6ms]
+[2022-10-22T07:26:12.790Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+[2022-10-22T07:26:12.805Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-10-22T07:26:12.808Z] > git remote --verbose [4ms]
+[2022-10-22T07:26:12.823Z] > git config --get commit.template [3ms]
+[2022-10-22T07:26:13.279Z] > git show --textconv :src/App.js [7ms]
+[2022-10-22T07:26:13.281Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [3ms]
+[2022-10-22T07:26:13.292Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [6ms]
+[2022-10-22T07:26:13.294Z] > git check-ignore -v -z --stdin [3ms]
+[2022-10-22T07:26:21.419Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-22T07:26:21.419Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T07:26:42.416Z] > git show --textconv :src/App.js [8ms]
+[2022-10-22T07:26:42.421Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [6ms]
+[2022-10-22T07:26:42.431Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [3ms]
+[2022-10-22T10:06:06.196Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-22T10:06:06.196Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T10:06:24.568Z] > git show --textconv :src/App.js [12ms]
+[2022-10-22T10:06:24.568Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [7ms]
+[2022-10-22T10:06:24.579Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [2ms]
+[2022-10-22T10:25:57.670Z] > git show --textconv :src/App.test.js [5ms]
+[2022-10-22T10:25:57.671Z] > git ls-files --stage -- /home/server/My-blog/src/App.test.js [2ms]
+[2022-10-22T10:25:57.676Z] > git cat-file -s 1f03afeece5ac28064fa3c73a29215037465f789 [1ms]
+[2022-10-22T10:25:58.092Z] > git show --textconv :src/App.js [7ms]
+[2022-10-22T10:25:58.093Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [3ms]
+[2022-10-22T10:25:58.099Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [1ms]
+[2022-10-22T10:27:41.473Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-22T10:27:41.473Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T10:27:49.348Z] > git show --textconv :src/App.test.js [5ms]
+[2022-10-22T10:27:49.349Z] > git ls-files --stage -- /home/server/My-blog/src/App.test.js [2ms]
+[2022-10-22T10:27:49.354Z] > git cat-file -s 1f03afeece5ac28064fa3c73a29215037465f789 [1ms]
+[2022-10-22T10:27:52.006Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-22T10:27:52.006Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T10:28:49.039Z] > git show --textconv :src/App.js [6ms]
+[2022-10-22T10:28:49.040Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [2ms]
+[2022-10-22T10:28:49.046Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [1ms]
+[2022-10-22T10:29:08.503Z] > git show --textconv :src/index.css [7ms]
+[2022-10-22T10:29:08.505Z] > git ls-files --stage -- /home/server/My-blog/src/index.css [3ms]
+[2022-10-22T10:29:08.512Z] > git cat-file -s ec2585e8c0bb8188184ed1e0703c4c8f2a8419b0 [1ms]
+[2022-10-22T10:29:09.752Z] > git show --textconv :src/App.js [6ms]
+[2022-10-22T10:29:09.753Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [2ms]
+[2022-10-22T10:29:09.758Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [1ms]
+[2022-10-22T10:29:10.058Z] > git show --textconv :src/App.css [6ms]
+[2022-10-22T10:29:10.058Z] > git ls-files --stage -- /home/server/My-blog/src/App.css [1ms]
+[2022-10-22T10:29:10.064Z] > git cat-file -s ed04ba2ea3e2d14b560c11051c468c2b6fd750a4 [1ms]
+[2022-10-22T10:29:20.002Z] > git show --textconv :src/App.js [6ms]
+[2022-10-22T10:29:20.003Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [2ms]
+[2022-10-22T10:29:20.008Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [1ms]
+[2022-10-22T10:29:20.353Z] > git rev-parse --show-toplevel [3ms]
+[2022-10-22T10:29:20.353Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T10:29:21.704Z] > git show --textconv :src/App.js [4ms]
+[2022-10-22T10:29:21.705Z] > git ls-files --stage -- /home/server/My-blog/src/App.js [1ms]
+[2022-10-22T10:29:21.711Z] > git cat-file -s 88c7925fafa3272b285bccdda8ad7b8475ea1d95 [1ms]
+[2022-10-22T10:34:13.681Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-22T10:34:13.681Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T11:37:23.025Z] > git show --textconv :package.json [12ms]
+[2022-10-22T11:37:23.028Z] > git ls-files --stage -- /home/server/My-blog/package.json [10ms]
+[2022-10-22T11:37:23.054Z] > git cat-file -s 6aa486a2ab7c96c7cdc48754089caaa646e0615e [19ms]
+[2022-10-22T11:41:14.487Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-22T11:41:14.487Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T11:42:52.619Z] > git show --textconv :package.json [6ms]
+[2022-10-22T11:42:52.619Z] > git ls-files --stage -- /home/server/My-blog/package.json [1ms]
+[2022-10-22T11:42:52.625Z] > git cat-file -s 6aa486a2ab7c96c7cdc48754089caaa646e0615e [1ms]
+[2022-10-22T11:43:54.159Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-22T11:43:55.977Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-22T11:55:10.355Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-22T11:55:11.404Z] > git check-ignore -v -z --stdin [2ms]
+[2022-10-22T11:55:16.966Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-22T11:55:19.852Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-22T11:55:23.557Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-22T11:55:50.396Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-22T11:55:50.396Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T11:55:57.680Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-22T11:55:57.680Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T11:55:59.326Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-22T11:55:59.326Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T11:56:01.449Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-22T11:56:01.449Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T11:56:08.580Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-22T11:56:08.580Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-22T11:58:40.352Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-22T11:58:40.352Z] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,19 @@
+[2022-09-28 06:36:12.220] [exthost] [info] Extension host with pid 12084 started
+[2022-09-28 06:36:12.238] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Lock acquired.
+[2022-09-28 06:36:12.291] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-28 06:36:12.298] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-28 06:36:12.303] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-28 06:36:12.389] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-28 06:36:12.456] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-28 06:36:12.480] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-28 06:36:12.485] [exthost] [info] Eager extensions activated
+[2022-09-28 06:36:12.621] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-09-28 06:36:12.760] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-28 06:44:19.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-28 06:44:19.806] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-28 06:44:19.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-28 06:44:19.951] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-09-28 06:44:20.403] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-28 07:30:55.917] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-28 07:30:55.918] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-28 07:30:55.942] [exthost] [info] Extension host with pid 12084 exiting with code 0

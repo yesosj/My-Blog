@@ -1,0 +1,49 @@
+[2022-10-02 03:17:06.982] [exthost] [info] Extension host with pid 6847 started
+[2022-10-02 03:17:07.003] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Lock acquired.
+[2022-10-02 03:17:07.024] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-02 03:17:07.031] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-10-02 03:17:07.036] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-02 03:17:07.086] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-02 03:17:07.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-02 03:17:07.185] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-02 03:17:07.191] [exthost] [info] Eager extensions activated
+[2022-10-02 03:17:08.349] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-10-02 03:17:08.455] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-02 03:17:17.541] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-10-02 03:27:36.398] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2022-10-02 03:27:36.398] [exthost] [error] Error: <semantic> TypeScript Server Error (4.8.2)
+BADCLIENT: Bad error code, 7027 not found in range 3598..3720 (found: false, false, false, false, false, false, false, false, false); could have caused this error:
+Debug Failure. Token and statement should start at the same point. {"statementKind":"ReturnStatement","tokenKind":"Identifier","errorCode":7027,"start":3598,"length":122}
+Error: BADCLIENT: Bad error code, 7027 not found in range 3598..3720 (found: false, false, false, false, false, false, false, false, false); could have caused this error:
+Debug Failure. Token and statement should start at the same point. {"statementKind":"ReturnStatement","tokenKind":"Identifier","errorCode":7027,"start":3598,"length":122}
+    at doChange (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:158087:26)
+    at /usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:158070:96
+    at Function.ChangeTracker.with (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:150713:17)
+    at Object.getCodeActions (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:158070:64)
+    at /usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:151961:77
+    at Object.flatMap (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:525:25)
+    at Object.getFixes (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:151961:23)
+    at /usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:167597:35
+    at Object.flatMap (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:525:25)
+    at Object.getCodeFixesAtPosition (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:167595:23)
+    at IpcIOSession.Session.getCodeFixes (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:179827:64)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:178207:61)
+    at /usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:180140:96
+    at IpcIOSession.Session.executeWithRequestId (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:180131:28)
+    at IpcIOSession.Session.executeCommand (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:180140:41)
+    at IpcIOSession.Session.onMessage (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:180168:35)
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/node_modules/typescript/lib/tsserver.js:184334:31)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+	at Function.create (/usr/lib/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:511543)
+	at dispatchResponse (/usr/lib/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:505391)
+	at dispatchMessage (/usr/lib/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:504259)
+	at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/typescript-language-features/dist/extension.js:1:503744)
+	at ChildProcess.emit (node:events:513:28)
+	at emit (node:internal/child_process:939:14)
+	at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[2022-10-02 04:51:57.563] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-10-02 05:41:33.030] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-10-02 05:41:33.031] [exthost] [info] Lock '/home/coder/.local/share/code-server/User/workspaceStorage/-10a5ee21/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-10-02 05:41:33.091] [exthost] [info] Extension host with pid 6847 exiting with code 0

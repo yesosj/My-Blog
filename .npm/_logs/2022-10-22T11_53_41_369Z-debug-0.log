@@ -1,0 +1,40 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@8.19.1
+2 info using node@v18.9.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/server/My-blog/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 11ms
+11 timing config:load:file:/home/coder/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 19ms
+19 timing npm:load:configload Completed in 19ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm view express description dist-tags.latest homepage version
+23 verbose argv "view" "--json" "express" "description" "dist-tags.latest" "homepage" "version"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 3ms
+27 verbose logfile logs-max:10 dir:/home/coder/.npm/_logs
+28 verbose logfile /home/coder/.npm/_logs/2022-10-22T11_53_41_369Z-debug-0.log
+29 timing npm:load:logFile Completed in 6ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 32ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 http fetch GET 200 https://registry.npmjs.org/express 816ms (cache miss)
+36 timing command:view Completed in 850ms
+37 verbose exit 0
+38 timing npm Completed in 892ms
+39 info ok

@@ -1,0 +1,46 @@
+[2022-10-21 03:55:41.661] [remoteagent] [info] 
+
+
+
+
+[2022-10-21 03:55:41.707] [remoteagent] [info] Extension host agent started.
+[2022-10-21 03:55:41.880] [remoteagent] [error] [172.17.0.1][96a76ba6][ExtensionHostConnection] Unknown reconnection token (never seen).
+[2022-10-21 03:55:42.018] [remoteagent] [error] [172.17.0.1][98d61cea][ManagementConnection] Unknown reconnection token (never seen).
+[2022-10-21 03:58:00.715] [remoteagent] [info] [172.17.0.1][8b8ef9ec][ManagementConnection] New connection established.
+[2022-10-21 03:58:01.587] [remoteagent] [info] [172.17.0.1][fbd83ce4][ExtensionHostConnection] New connection established.
+[2022-10-21 03:58:01.614] [remoteagent] [info] [172.17.0.1][fbd83ce4][ExtensionHostConnection] <69> Launched Extension Host Process.
+[2022-10-21 03:58:03.602] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[2022-10-21 07:02:32.218] [remoteagent] [info] [172.17.0.1][8b8ef9ec][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-21 07:02:32.262] [remoteagent] [info] [172.17.0.1][fbd83ce4][ExtensionHostConnection] <69> Extension Host Process exited with code: 0, signal: null.
+[2022-10-22 06:53:32.028] [remoteagent] [info] [172.17.0.1][c9cae2aa][ManagementConnection] New connection established.
+[2022-10-22 06:53:34.515] [remoteagent] [info] [172.17.0.1][a38fd223][ExtensionHostConnection] New connection established.
+[2022-10-22 06:53:34.523] [remoteagent] [info] [172.17.0.1][a38fd223][ExtensionHostConnection] <716> Launched Extension Host Process.
+[2022-10-22 06:53:36.841] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[2022-10-22 06:55:59.296] [remoteagent] [info] [172.17.0.1][c9cae2aa][ManagementConnection] The client has reconnected.
+[2022-10-22 06:55:59.397] [remoteagent] [info] [172.17.0.1][a38fd223][ExtensionHostConnection] The client has reconnected.
+[2022-10-22 06:56:26.912] [remoteagent] [info] [172.17.0.1][c9cae2aa][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-10-22 06:56:26.914] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[2022-10-22 06:56:48.399] [remoteagent] [info] [172.17.0.1][c9cae2aa][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-10-22 06:56:48.399] [remoteagent] [info] [172.17.0.1][c9cae2aa][ManagementConnection] The client has reconnected.
+[2022-10-22 06:56:48.503] [remoteagent] [info] [172.17.0.1][a38fd223][ExtensionHostConnection] The client has reconnected.
+[2022-10-22 07:00:14.719] [remoteagent] [info] [172.17.0.1][c9cae2aa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-22 07:00:14.748] [remoteagent] [info] [172.17.0.1][a38fd223][ExtensionHostConnection] <716> Extension Host Process exited with code: 0, signal: null.
+[2022-10-22 07:24:40.255] [remoteagent] [info] [172.17.0.1][0cb8128c][ManagementConnection] New connection established.
+[2022-10-22 07:24:40.410] [remoteagent] [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[2022-10-22 07:24:41.244] [remoteagent] [info] [172.17.0.1][83654666][ExtensionHostConnection] New connection established.
+[2022-10-22 07:24:41.264] [remoteagent] [info] [172.17.0.1][83654666][ExtensionHostConnection] <930> Launched Extension Host Process.
+[2022-10-22 07:24:41.618] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[2022-10-22 12:15:34.945] [remoteagent] [info] [172.17.0.1][0cb8128c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-10-22 12:15:35.023] [remoteagent] [info] [172.17.0.1][83654666][ExtensionHostConnection] <930> Extension Host Process exited with code: 0, signal: null.
+[2022-10-23 09:41:25.697] [remoteagent] [info] [172.17.0.1][2b3a1480][ManagementConnection] New connection established.
+[2022-10-23 09:41:26.631] [remoteagent] [info] [172.17.0.1][34a3a2d7][ExtensionHostConnection] New connection established.
+[2022-10-23 09:41:26.643] [remoteagent] [info] [172.17.0.1][34a3a2d7][ExtensionHostConnection] <3931> Launched Extension Host Process.
+[2022-10-23 09:41:27.327] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)

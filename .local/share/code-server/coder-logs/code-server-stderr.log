@@ -1,0 +1,1741 @@
+[15:42:44] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+Failed login attempt {"remoteAddress":"172.17.0.1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36","timestamp":1663515951}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[06:05:06] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[06:06:14] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[07:41:42] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[07:15:15] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+IPC "File Watcher" crashed with exit code null and signal SIGSEGV
+[08:06:12] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGSEGV
+[08:06:29] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[08:06:29] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[06:29:55] [File Watcher (node.js)] Failed to watch /home/coder/My-blog/public/favicon.ico for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/My-blog/public/favicon.ico')
+Failed login attempt {"remoteAddress":"172.17.0.1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36","timestamp":1664158179}
+[02:09:50] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[02:57:13] [172.17.0.1][e2ee93d7][ManagementConnection] Unknown reconnection token (never seen).
+[02:57:16] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[05:40:42] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[05:40:43] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[05:56:15] [172.17.0.1][d779f423][ExtensionHostConnection] Unknown reconnection token (never seen).
+[05:56:15] [172.17.0.1][e4a909f5][ManagementConnection] Unknown reconnection token (never seen).
+[05:56:19] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[06:06:03] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGTERM
+[06:06:54] [172.17.0.1][fde381bb][ManagementConnection] Unknown reconnection token (never seen).
+[06:06:56] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[06:08:45] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGTERM
+[06:09:07] [172.17.0.1][9cd275c9][ExtensionHostConnection] Unknown reconnection token (never seen).
+[06:09:07] [172.17.0.1][d50177f5][ManagementConnection] Unknown reconnection token (never seen).
+[06:09:12] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[06:12:51] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[06:13:03] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGTERM
+[06:14:34] [172.17.0.1][d233a4d1][ManagementConnection] Unknown reconnection token (never seen).
+[06:14:37] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[06:18:22] [172.17.0.1][7ee08af7][ManagementConnection] Unknown reconnection token (never seen).
+[06:18:22] [172.17.0.1][265c842b][ExtensionHostConnection] Unknown reconnection token (never seen).
+[06:18:29] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[04:06:49] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[04:06:50] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[04:08:17] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGTERM
+[04:21:16] [172.17.0.1][1c13f072][ManagementConnection] Unknown reconnection token (never seen).
+[04:21:16] [172.17.0.1][13a3eb7d][ExtensionHostConnection] Unknown reconnection token (never seen).
+[04:23:02] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[04:27:17] [172.17.0.1][5a4f99ca][ExtensionHostConnection] Unknown reconnection token (never seen).
+[04:27:17] [172.17.0.1][6456a900][ManagementConnection] Unknown reconnection token (never seen).
+[04:28:26] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[04:32:14] [172.17.0.1][b3a3df1b][ExtensionHostConnection] Unknown reconnection token (never seen).
+[04:32:14] [172.17.0.1][88d740c5][ManagementConnection] Unknown reconnection token (never seen).
+[04:32:48] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[09:26:07] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[09:26:09] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[11:22:43] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[06:36:11] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[09:46:08] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[23:11:09] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[05:46:35] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[03:17:05] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[10:10:24] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[10:24:47] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[11:06:26] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+Failed login attempt {"remoteAddress":"172.17.0.1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36","timestamp":1664772512}
+Failed login attempt {"remoteAddress":"172.17.0.1","userAgent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36","timestamp":1664772515}
+[04:48:46] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[05:05:18] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[11:07:48] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[12:32:56] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[06:51:06] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/coder)
+[14:27:39] No ptyHost heartbeat after 6 seconds
+IPC "Pty Host" crashed with exit code null and signal SIGKILL
+[14:27:39] ptyHost terminated unexpectedly with code null
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4930
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29274)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[14:27:40] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4930
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29274)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at Proxy._event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at l._startPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4641)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8421)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4930
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29274)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[14:27:40] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at Proxy._event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at l._startPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4641)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8421)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:4930
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at ChildProcess.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29274)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[14:27:44] No ptyHost heartbeat after 12 seconds
+[14:27:45] No ptyHost response to createProcess after 5 seconds
+[14:27:45] No ptyHost response to createProcess after 5 seconds
+[14:27:45] No ptyHost response to createProcess after 5 seconds
+[14:27:45] No ptyHost response to createProcess after 5 seconds
+rejected promise not handled within 1 second: Error: disposed
+stack trace: Error: disposed
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26729)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at g.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:77799)
+    at u.onPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5876)
+    at u.onRawMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5252)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:4533
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at l.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:18977)
+    at n._receiveMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:23789)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:22809
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:15808)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:14938
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y._processReadQueue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:38187)
+[16:41:05] Error: disposed
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26729)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at g.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:77799)
+    at u.onPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5876)
+    at u.onRawMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5252)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:4533
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at l.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:18977)
+    at n._receiveMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:23789)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:22809
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:15808)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:14938
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y._processReadQueue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:38187)
+[16:41:09] No ptyHost response to createProcess after 5 seconds
+[16:41:09] No ptyHost response to createProcess after 5 seconds
+[16:41:09] No ptyHost response to createProcess after 5 seconds
+[16:41:09] No ptyHost response to createProcess after 5 seconds
+rejected promise not handled within 1 second: Error: disposed
+stack trace: Error: disposed
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26729)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at g.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:77799)
+    at u.onPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5876)
+    at u.onRawMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5252)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:4533
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at l.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:18977)
+    at n._receiveMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:23789)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:22809
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:15808)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:14938
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y._processReadQueue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:38187)
+[16:41:25] Error: disposed
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26729)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8861)
+    at l._disposePtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8480)
+    at l.restartPtyHost (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:130:8371)
+    at g.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:77799)
+    at u.onPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5876)
+    at u.onRawMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:5252)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:73:4533
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at l.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:18977)
+    at n._receiveMessage (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:23789)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:22809
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:15808)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:14938
+    at I.invoke (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at g.deliver (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:2269)
+    at y.fire (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:1847)
+    at y._processReadQueue (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:38187)
+[16:41:29] No ptyHost response to createProcess after 5 seconds
+[16:41:29] No ptyHost response to createProcess after 5 seconds
+[16:41:29] No ptyHost response to createProcess after 5 seconds
+[16:41:29] No ptyHost response to createProcess after 5 seconds
+ExtensionHostConnection errored
+Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at Object.fork (node:child_process:167:10)
+    at l.start (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:44666) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[07:51:18] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[07:51:19] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[07:51:19] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[07:51:19] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[07:51:19] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+ExtensionHostConnection errored
+Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at Object.fork (node:child_process:167:10)
+    at l.start (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:44666) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[08:01:04] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[08:01:05] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[08:01:05] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[08:01:05] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[08:01:05] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+ExtensionHostConnection errored
+Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at Object.fork (node:child_process:167:10)
+    at l.start (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:44666) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[08:42:40] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[08:42:41] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[08:42:41] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[08:42:41] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[08:42:41] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[15:32:15] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+ExtensionHostConnection errored
+Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at Object.fork (node:child_process:167:10)
+    at l.start (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:44666) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[15:32:16] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:32:16] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:32:16] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:32:16] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+ExtensionHostConnection errored
+Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at Object.fork (node:child_process:167:10)
+    at l.start (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:44666) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[15:39:16] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[15:39:17] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:39:17] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:39:17] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:39:17] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+ExtensionHostConnection errored
+Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at Object.fork (node:child_process:167:10)
+    at l.start (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:44666) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 541
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 542
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 543
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 544
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 545
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 546
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 547
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 548
+[15:39:45] RequestStore#acceptReply was called without receiving a matching request 549
+[15:39:46] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[15:39:47] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:39:47] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:39:47] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[15:39:47] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[15:39:54] RequestStore#acceptReply was called without receiving a matching request 550
+[15:39:55] RequestStore#acceptReply was called without receiving a matching request 551
+[15:39:55] RequestStore#acceptReply was called without receiving a matching request 552
+[15:39:55] RequestStore#acceptReply was called without receiving a matching request 553
+[15:39:55] RequestStore#acceptReply was called without receiving a matching request 554
+[15:39:55] RequestStore#acceptReply was called without receiving a matching request 555
+[15:39:55] RequestStore#acceptReply was called without receiving a matching request 556
+[15:39:55] RequestStore#acceptReply was called without receiving a matching request 557
+[15:39:55] RequestStore#acceptReply was called without receiving a matching request 558
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 559
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 560
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 561
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 562
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 563
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 564
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 565
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 566
+[15:43:46] RequestStore#acceptReply was called without receiving a matching request 567
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 568
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 569
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 570
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 571
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 572
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 573
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 574
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 575
+[15:43:48] RequestStore#acceptReply was called without receiving a matching request 576
+[15:43:51] No ptyHost response to createProcess after 5 seconds
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[15:45:58] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+ExtensionHostConnection errored
+Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at Object.fork (node:child_process:167:10)
+    at l.start (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:44666) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[11:43:36] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[11:43:37] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[11:43:37] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[11:43:37] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[11:43:37] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[11:48:17] No ptyHost response to createProcess after 5 seconds
+[11:57:20] No ptyHost response to createProcess after 5 seconds
+[11:57:22] No ptyHost response to createProcess after 5 seconds
+[11:57:28] No ptyHost response to createProcess after 5 seconds
+[12:02:14] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+    at async k.watch (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:79:50230) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+ExtensionHostConnection errored
+Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at Object.fork (node:child_process:167:10)
+    at l.start (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:140:44666) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853)
+[12:02:15] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at I.requestPromise (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26859)
+    at Object.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:26566)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7507
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+    at async Proxy.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:8853) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[12:02:15] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[12:02:15] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+rejected promise not handled within 1 second: Error: spawn ENOMEM
+stack trace: Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[12:02:15] Error: spawn ENOMEM
+    at ChildProcess.spawn (node:internal/child_process:413:11)
+    at spawn (node:child_process:713:9)
+    at fork (node:child_process:167:10)
+    at I.get client [as client] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:28327)
+    at I.getCachedChannel (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:29385)
+    at Object.onFirstListenerAdd (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:27363)
+    at _event._event (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:974)
+    at set input [as input] (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:63:5716)
+    at /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:74:7639
+    at runMicrotasks (<anonymous>)
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -12,
+  code: 'ENOMEM',
+  syscall: 'spawn'
+}
+[12:05:34] [172.17.0.1][b4089dde][ExtensionHostConnection] Unknown reconnection token (never seen).
+[12:05:43] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[12:08:20] [File Watcher (node.js)] Failed to watch /home/coder/My-blog/public/menu.png for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/coder/My-blog/public/menu.png')
+[12:20:42] [172.17.0.1][d898c851][ManagementConnection] Unknown reconnection token (never seen).
+[12:20:42] [172.17.0.1][e4f2290d][ExtensionHostConnection] Unknown reconnection token (never seen).
+[12:21:00] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[08:23:46] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[07:37:04] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[09:54:26] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[09:57:50] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[10:54:48] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[14:23:51] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[14:23:54] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[14:28:22] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[08:12:27] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[05:09:39] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[06:11:48] [File Watcher (universal)] restarting watcher after error: terminated by itself with code null, signal: SIGTERM
+[06:12:23] [172.17.0.1][77ee43b7][ExtensionHostConnection] Unknown reconnection token (never seen).
+[06:12:23] [172.17.0.1][c8f39bbb][ManagementConnection] Unknown reconnection token (never seen).
+[06:12:29] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[05:31:19] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[05:31:21] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[05:31:55] [File Watcher (node.js)] Failed to watch /home/server/My-blog/.git for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/server/My-blog/.git')
+[05:31:55] [File Watcher (node.js)] Failed to watch /home/server/My-blog/.git/refs/remotes/origin/master for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/server/My-blog/.git/refs/remotes/origin/master')
+[05:32:54] [172.17.0.1][1b0bb28a][ExtensionHostConnection] Unknown reconnection token (never seen).
+[05:32:54] [172.17.0.1][be2b8507][ManagementConnection] Unknown reconnection token (never seen).
+[05:32:59] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[05:33:48] [File Watcher (node.js)] Failed to watch /home/server/My-blog/public/menu.png for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/server/My-blog/public/menu.png')
+[05:51:28] [172.17.0.1][92a4f607][ManagementConnection] Unknown reconnection token (never seen).
+[05:51:28] [172.17.0.1][6cd86370][ExtensionHostConnection] Unknown reconnection token (never seen).
+[05:51:32] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[00:55:34] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[00:55:35] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[00:55:40] [File Watcher (node.js)] Failed to watch /home/server/My-blog/.git for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/server/My-blog/.git')
+[00:55:40] [File Watcher (node.js)] Failed to watch /home/server/My-blog/.git/refs/remotes/origin/master for changes using fs.watch() (Error: ENOSPC: System limit for number of file watchers reached, watch '/home/server/My-blog/.git/refs/remotes/origin/master')
+[03:39:21] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[03:55:41] [172.17.0.1][96a76ba6][ExtensionHostConnection] Unknown reconnection token (never seen).
+[03:55:42] [172.17.0.1][98d61cea][ManagementConnection] Unknown reconnection token (never seen).
+[03:58:03] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+Failed login attempt {"remoteAddress":"172.17.0.1","userAgent":"Mozilla/5.0 (Linux; Android 12; SM-N971N Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.232 Whale/1.0.0.0 Crosswalk/26.90.3.29 Mobile Safari/537.36 NAVER(inapp; search; 1010; 11.16.1)","timestamp":1666421600}
+[06:53:36] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/bootstrap.js:1:407)
+    at process.emit (node:events:525:35)
+[06:56:26] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:148:7922)
+    at process.emit (node:events:525:35)
+[07:24:40] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Cannot find module '../build/Release/keytar.node'
+Require stack:
+- /usr/lib/code-server/lib/vscode/node_modules/keytar/lib/keytar.js
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+[07:24:41] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)
+[09:41:27] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home)

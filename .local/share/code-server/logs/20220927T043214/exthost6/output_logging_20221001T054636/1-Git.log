@@ -1,0 +1,39 @@
+[2022-10-01T05:46:36.743Z] Log level: Info
+[2022-10-01T05:46:36.751Z] [info] Validating found git in: git
+[2022-10-01T05:46:36.785Z] [info] Using git 2.30.2 from git
+[2022-10-01T05:46:36.837Z] > git rev-parse --show-toplevel [37ms]
+[2022-10-01T05:46:36.837Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-01T05:46:36.854Z] > git rev-parse --show-toplevel [9ms]
+[2022-10-01T05:46:36.854Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-01T05:46:36.860Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-01T05:46:36.860Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-01T05:46:36.866Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-01T05:46:36.866Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-01T05:46:36.871Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-01T05:46:36.871Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-01T05:46:36.876Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-01T05:46:36.876Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-01T05:46:36.882Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-01T05:46:36.887Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-10-01T05:46:36.895Z] [info] Open repository: /home/coder/My-blog
+[2022-10-01T05:46:36.906Z] > git status -z -uall [3ms]
+[2022-10-01T05:46:36.931Z] > git symbolic-ref --short HEAD [20ms]
+[2022-10-01T05:46:36.939Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-10-01T05:46:36.951Z] > git remote --verbose [2ms]
+[2022-10-01T05:46:36.952Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-10-01T05:46:36.967Z] > git config --get commit.template [1ms]
+[2022-10-01T05:46:36.979Z] > git status -z -uall [4ms]
+[2022-10-01T05:46:36.986Z] > git symbolic-ref --short HEAD [3ms]
+[2022-10-01T05:46:36.995Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+[2022-10-01T05:46:37.005Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-01T05:46:37.006Z] > git remote --verbose [3ms]
+[2022-10-01T05:46:37.014Z] > git config --get commit.template [1ms]
+[2022-10-01T05:46:37.446Z] > git check-ignore -v -z --stdin [2ms]
+[2022-10-01T05:46:48.809Z] > git check-ignore -v -z --stdin [2ms]
+[2022-10-01T05:48:09.999Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-01T05:48:10.881Z] > git show --textconv :src/App.js [7ms]
+[2022-10-01T05:48:10.883Z] > git ls-files --stage -- /home/coder/My-blog/src/App.js [3ms]
+[2022-10-01T05:48:10.893Z] > git cat-file -s de31fa398d71b1b731f3867f56cfe9b0cf85820d [1ms]
+[2022-10-01T06:20:34.322Z] > git show --textconv :src/App.css [8ms]
+[2022-10-01T06:20:34.323Z] > git ls-files --stage -- /home/coder/My-blog/src/App.css [4ms]
+[2022-10-01T06:20:34.331Z] > git cat-file -s 281bbf530898a40e02d38beed957fb8841c15897 [1ms]
